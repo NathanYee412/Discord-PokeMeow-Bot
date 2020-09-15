@@ -10,6 +10,7 @@ import random
 email = ""
 password = ""
 
+# (You will need to get the login redirect link for the script to work)
 #Link to discord channel with bot
 discordLink = "https://discord.com/login?redirect_to=%2Fchannels%2F755173566605164615%2F755245005802700862"
 
