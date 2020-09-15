@@ -50,8 +50,8 @@ def catchP():
 
 
 #username and pw 
-email = "nathan.yee530@gmail.com"
-password = "Nathan98"
+email = ""
+password = ""
 
 
 #login to discord
