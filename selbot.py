@@ -5,13 +5,19 @@ import random
 
 
 
+#Enter links and credentials
+#username and pw  
+email = ""
+password = ""
+
+#Link to discord channel with bot
+discordLink = "https://discord.com/login?redirect_to=%2Fchannels%2F755173566605164615%2F755245005802700862"
+
+
 #download chromedriver.exe and extract to the .exe to the C drive 
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
-
-#Link to tall grass 3 
-discordLink = "https://discord.com/login?redirect_to=%2Fchannels%2F195424160678281217%2F659893570525986868"
 
 #login to discord 
 def discordLogin(email, password):
@@ -48,23 +54,20 @@ def catchP():
     time.sleep(random.randint(9,12))
 
 
-
-#username and pw 
-email = ""
-password = ""
-
-
 #login to discord
 discordLogin(email, password)
+
+
 #catch pokemon in infinite loop
-
-
 temp = True
 count = 1
 while(temp):
+    
+    #catch pokemon
     catchP()
     count = count + 1
     print(count)
 
+    #buy pokeballs every 10 uses
     if count % 10 == 0:
         shopBuy()
