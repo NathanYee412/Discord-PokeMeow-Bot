@@ -12,6 +12,4 @@ Discord automation using Selenium
 # 3. Open discord on web browser and go to the channel and text channel you want to run the bot in
 # 4. Place that link into the discord link variable 
 # 5. run selbot.py 
-# 6. Copy the redirect login link and replace it in the code again
-# 7. Run selbot.py 
 ###################################################################################################
